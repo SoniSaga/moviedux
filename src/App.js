@@ -2,17 +2,17 @@
 import './App.css';
 import './styles.css'
 import Header from './components/Header';
+import Footer from './components/Footer';
+import MoviesGrid from './components/MoviesGrid';
 
 function App() {
   return (
     <div className="App">
       <div className='container'>
         <Header></Header>
-        <image className='logo' src='logo.png' alt='moviedux'/>
+        <MoviesGrid></MoviesGrid>
       </div>
-      <footer className ="footer">
-        <p className='footer'> Footer content here</p>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }
